@@ -11,7 +11,7 @@ export const languages = {
 
   // Western European – Germanic & Nordic
   "de": { label: "Deutsch", path: "/de/" },
-  "da": { label: "dansk", path: "/da/" },
+  "da": { label: "Dansk", path: "/da/" },
   "fi": { label: "Suomi", path: "/fi/" },
   "nl": { label: "Nederlands", path: "/nl/" },
 
