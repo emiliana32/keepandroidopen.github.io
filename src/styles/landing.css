@@ -643,12 +643,7 @@
       direction: initial;
     }
 
-    /* Pure CSS hover pause — no JS needed, no animation jump */
-    @media (hover: hover) {
-      .ticker:hover .ticker-track {
-        animation-play-state: paused;
-      }
-    }
+    /* Hover pause is handled by JS (smooth playbackRate ramp) */
 
     .ticker-half {
       display: flex;
