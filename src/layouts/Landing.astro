@@ -87,7 +87,7 @@ const homePath = locale === 'en' ? '/' : `/${locale}/`;
       <a href="#what" class="scroll-cue" aria-label="Read more">&#8595;</a>
 
       <p class="share-heading" set:html={t.closing_share_heading} />
-      <ShareRow t={t} />
+      <ShareRow t={t} locale={locale} />
     </section>
 
     <!-- What's happening -->
@@ -304,7 +304,7 @@ const homePath = locale === 'en' ? '/' : `/${locale}/`;
       <p class="closing-lede"><Fragment set:html={t.closing_line1} /><br><Fragment set:html={t.closing_line2} /></p>
       <p set:html={t.closing_detail} />
       <p class="closing-cta"><strong><Fragment set:html={t.closing_cta} /></strong></p>
-      <ShareRow t={t} />
+      <ShareRow t={t} locale={locale} />
     </section>
   </main>
 
